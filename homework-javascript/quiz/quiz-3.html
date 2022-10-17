@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <script>
+      // 숫자를 입력받습니다.
+      const rawInput = prompt("원의 반지름을 입력해주세요.");
+
+      //숫자 형태로 변환합니다.
+      const won = Number(rawInput);
+
+      //원의 넓이와 둘레를 구해 출력하세요.
+      // alert(`원의 반지름: ${won}`);
+      // alert(`원의 넓이:${3.14 * won * won}`);
+      // alert(`원의 둘레:${2 * 3.14 * won}`);
+      let output = ``;
+      output += `원의 반지름: ${won}\n`;
+      output += `원의 넓이:${3.14 * won * won}\n`;
+      output += `원의 둘레:${2 * 3.14 * won}`;
+      alert(output);
+    </script>
+  </head>
+  <body></body>
+</html>
